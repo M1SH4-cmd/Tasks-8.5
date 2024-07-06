@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/CLion Projects/8.6 Tasks/Task 1 - Space Simuliator/cmake-build-debug/CMakeFiles/Task_1___Space_Simuliator.dir
+C:/Users/User/Desktop/CLion Projects/8.6 Tasks/Task 1 - Space Simuliator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/CLion Projects/8.6 Tasks/Task 1 - Space Simuliator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
