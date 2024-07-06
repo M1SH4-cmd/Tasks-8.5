@@ -7,12 +7,12 @@ int main() {
     float magicResistance;
     float fireballDmg;
 
-
-        wcout << L"Введите текущий уровень здоровья орка: ";
-        cin >> hp;
         while(true) {
-            if (hp <= 0) {
-                wcout << L"Неверный ввод. Уровень здоровья не может быть 0" << endl;
+            wcout << L"Введите текущий уровень здоровья орка: ";
+            cin >> hp;
+
+            if (hp < 0) {
+                wcout << L"Неверный ввод. Уровень здоровья не может быть ниже 0" << endl;
                 continue;
             }
 
@@ -31,9 +31,11 @@ int main() {
                 wcout << L"Неверный ввод. Урон огненного шара не может быть 0" << endl;
                 continue;
             }
+
+            if(hp <= 0){
+                wcout << L"Орк погибает. GG";
+                break;
+            }
         }
         float adjustedFireballDmg;
-
-
-
 }
