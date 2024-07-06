@@ -5,7 +5,6 @@
 using namespace std;
 using uint = unsigned int; //Проблема с контролем ввода решил сам С++ ))
 
-
 int main() {
     double mass;
     uint force;
@@ -26,7 +25,6 @@ int main() {
     double a = (double) force / mass;
     double distance = (a * pow(t,2)) / 2;
 
-    printf("Корабль окажется на %2.f расстоянии по прошествии", distance); //  << t << L" секунд "
-    wcout << format("Корабль окажется на %2.f расстоянии по прошествии", distance);
+    printf("Ship will reach %2.f miles after %d seconds past\n", distance, t); //  << t << L" секунд "
 }
 
