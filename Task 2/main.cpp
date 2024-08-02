@@ -1,41 +1,48 @@
 #include <iostream>
+#include <cstdio>
 using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    float hp;
-    float magicResistance;
-    float fireballDmg;
+    float health, resistance, power, damage;
 
-    {
-        wcout << L"Введите текущий уровень здоровья орка (не более 100): ";
-        cin >> hp;
-        if (hp < 0 || hp > 100) {
-            wcout << L"Неверный ввод" << endl;
-        }
+    // Ввод количества здоровья и сопротивляемости магии орка
+    wcout << L"Введите здоровье Орка (от 0 до 1): ";
+    cin >> health;
 
-        hp /= 100;
-        wcout << L"Введите уровень сопротивления магии (не более 100): ";
-        cin >> magicResistance;
-        if (magicResistance < 0 || magicResistance > 100) {
-            wcout << L"Неверный ввод!" << endl;
-        }
-        magicResistance /= 100;
+    wcout << L"Введите сопротивление урону от магии (от 0 до 1): ";
+    cin >> resistance;
 
-        wcout << L"Введите урон огненного шара (не более 100): ";
-        cin >> fireballDmg;
-        if (fireballDmg < 0 || fireballDmg > 100) {
-            wcout << L"Неверный ввод" << endl;
-        }
-        fireballDmg /= 100;
-
+    // Проверка корректности ввода
+    if (health < 0 || health > 1 || resistance < 0 || resistance > 1) {
+        wcout << L"Неверные значения. Здоровье и сопротивление должны быть в диапазоне от 0 до 1." << endl;
+        return 1;
     }
-    while(true){
-        if(hp <= 0){
-            wcout << L"Ну всё, GG" << endl;
-            break;
+
+    // Цикл, пока орк не погибнет
+    while (health > 0) {
+        // Ввод мощности удара
+        wcout << L"Введите урон огненного шара (от 0 до 1): ";
+        cin >> power;
+
+        // Проверка корректности ввода
+        if (power < 0 || power > 1) {
+            wcout << L"Неверное значение урона. Урон должен быть в диапазоне от 0 до 1." << endl;
+            continue;
         }
-        hp -= fireballDmg - magicResistance;
-        wcout << L"HP орка падает на " << fireballDmg - magicResistance << L" единиц здоровья. Новый уровень здоровья\n: " << hp * 100 << endl;
+
+        // Расчет итогового урона
+        damage = power * (1 - resistance);
+
+        // Обновление здоровья орка
+        health -= damage;
+
+        // Вывод итогового урона и оставшегося здоровья
+        wcout << L"Итоговый урон: " << damage << endl;
+        wcout << L"Остаток здоровья: " << health << endl;
     }
+
+    wcout << L"Орк погиб." << endl;
+
+    return 0;
 }

@@ -1,11 +1,11 @@
 #include <iostream>
 #include <cmath>
 #include <cstdio>
-#include <conio.h>
 using namespace std;
 using uint = unsigned int; //Проблема с контролем ввода решил сам С++ ))
 
 int main() {
+
     double mass;
     uint force;
     uint t;
@@ -25,6 +25,6 @@ int main() {
     double a = (double) force / mass;
     double distance = (a * pow(t,2)) / 2;
 
-    printf("Ship will reach %2.f miles after %d seconds past\n", distance, t); //  << t << L" секунд "
+    printf("Ship will reach %2.f miles after %d seconds past\n", distance, t);
 }
 
