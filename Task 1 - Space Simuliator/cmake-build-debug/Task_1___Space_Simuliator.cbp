@@ -96,6 +96,9 @@
 		<Unit filename="C:/Users/User/Desktop/C++/8.6 Tasks/Task_3/main.cpp">
 			<Option target="Task_1___Space_Simuliator"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/C++/8.6 Tasks/Task_4/main.cpp">
+			<Option target="Task_1___Space_Simuliator"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/C++/8.6 Tasks/Task 1 - Space Simuliator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

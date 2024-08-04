@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/User/Desktop/C++/8.6 Tasks/Task 2/main.cpp" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_2/main.cpp.obj" "gcc" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_2/main.cpp.obj.d"
   "C:/Users/User/Desktop/C++/8.6 Tasks/Task_3/main.cpp" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.obj" "gcc" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.obj.d"
+  "C:/Users/User/Desktop/C++/8.6 Tasks/Task_4/main.cpp" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj" "gcc" "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj.d"
   "C:/Users/User/Desktop/C++/8.6 Tasks/Task 1 - Space Simuliator/main.cpp" "CMakeFiles/Task_1___Space_Simuliator.dir/main.cpp.obj" "gcc" "CMakeFiles/Task_1___Space_Simuliator.dir/main.cpp.obj.d"
   "C:/Users/User/Desktop/C++/8.6 Tasks/Task 1 - Space Simuliator/main.test.cpp" "CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.obj" "gcc" "CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.obj.d"
   )

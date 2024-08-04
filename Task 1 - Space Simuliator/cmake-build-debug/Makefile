@@ -176,6 +176,30 @@ C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1___Space_Simuliator.dir\build.make CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.s
 .PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.s
 
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.obj: C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.obj
+
+# target to build an object file
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1___Space_Simuliator.dir\build.make CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj
+
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.i: C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.i
+
+# target to preprocess a source file
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1___Space_Simuliator.dir\build.make CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i
+
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.s: C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.s
+
+# target to generate assembly for a file
+C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task_1___Space_Simuliator.dir\build.make CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s
+.PHONY : C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.obj
 	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.i
 	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.s
+	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.obj
+	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.i
+	@echo ... C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -124,12 +124,27 @@ CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.s"
 	"C:\PROGRA~1\JETBRA~1\CLion 2023.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\User\Desktop\C++\8.6 Tasks\Task 1 - Space Simuliator\main.test.cpp" -o CMakeFiles\Task_1___Space_Simuliator.dir\main.test.cpp.s
 
+CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj: CMakeFiles/Task_1___Space_Simuliator.dir/flags.make
+CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj: C:/Users/User/Desktop/C++/8.6\ Tasks/Task_4/main.cpp
+CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj: CMakeFiles/Task_1___Space_Simuliator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\User\Desktop\C++\8.6 Tasks\Task 1 - Space Simuliator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj"
+	"C:\PROGRA~1\JETBRA~1\CLion 2023.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj -MF CMakeFiles\Task_1___Space_Simuliator.dir\C_\Users\User\Desktop\C++\8.6_Tasks\Task_4\main.cpp.obj.d -o CMakeFiles\Task_1___Space_Simuliator.dir\C_\Users\User\Desktop\C++\8.6_Tasks\Task_4\main.cpp.obj -c "C:\Users\User\Desktop\C++\8.6 Tasks\Task_4\main.cpp"
+
+CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.i"
+	"C:\PROGRA~1\JETBRA~1\CLion 2023.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\User\Desktop\C++\8.6 Tasks\Task_4\main.cpp" > CMakeFiles\Task_1___Space_Simuliator.dir\C_\Users\User\Desktop\C++\8.6_Tasks\Task_4\main.cpp.i
+
+CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.s"
+	"C:\PROGRA~1\JETBRA~1\CLion 2023.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\User\Desktop\C++\8.6 Tasks\Task_4\main.cpp" -o CMakeFiles\Task_1___Space_Simuliator.dir\C_\Users\User\Desktop\C++\8.6_Tasks\Task_4\main.cpp.s
+
 # Object files for target Task_1___Space_Simuliator
 Task_1___Space_Simuliator_OBJECTS = \
 "CMakeFiles/Task_1___Space_Simuliator.dir/main.cpp.obj" \
 "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_2/main.cpp.obj" \
 "CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.obj" \
-"CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.obj"
+"CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.obj" \
+"CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj"
 
 # External object files for target Task_1___Space_Simuliator
 Task_1___Space_Simuliator_EXTERNAL_OBJECTS =
@@ -138,11 +153,12 @@ Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/main.cpp
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_2/main.cpp.obj
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_3/main.cpp.obj
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/main.test.cpp.obj
+Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/C_/Users/User/Desktop/C++/8.6_Tasks/Task_4/main.cpp.obj
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/build.make
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/linkLibs.rsp
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/objects1
 Task_1___Space_Simuliator.exe: CMakeFiles/Task_1___Space_Simuliator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\User\Desktop\C++\8.6 Tasks\Task 1 - Space Simuliator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Task_1___Space_Simuliator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\User\Desktop\C++\8.6 Tasks\Task 1 - Space Simuliator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Task_1___Space_Simuliator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Task_1___Space_Simuliator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
