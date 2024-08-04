@@ -19,8 +19,9 @@ int main() {
 
     int finalQuantity = (width * length) * height;
 
-    string line = "Из бруса размерностью " + to_string(x) + " X " + to_string(y) + " X " + to_string(z) + " можно составить " + to_string(finalQuantity / 27) + " наборов ";
+    string line = "From balk " + to_string(x) + " X " + to_string(y) + " X " + to_string(z) + " it is possible to make " + to_string(finalQuantity / 27) + " sets ";
 
     cout << line << endl;
 
+    wcout << L"Кол-во кубиков: " << finalQuantity << endl;
 }
